@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0px 2px 23px rgba(0, 0, 0, 0.250);
+    border-radius: 20px;
+    width: 500px;
+}
+
+.cardtop {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.title {
+    color: rgba(200, 15, 15);
+}
+
+.secondtext {
+    color: #858f95;
+}
+
+.mediacard {
+    background: url('https://carolamadio.files.wordpress.com/2012/05/howls-moving-castle-12.jpg?w=640') center/cover;
+    width: 500px;
+    height: 269px;
+}
+
+.bottomcard {
+    padding: 20px;
+}
+
+.bottomtext {
+    color: #6b9cbc;
+}
+
+.actions {
+    background: rgb(238, 170, 35);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.actions:hover {
+    background: rgb(238, 170, 35, 0.3);
+    transition: 0.5s;
+}
+
+.actions:active {
+    transform: scale(0.95);
+}
